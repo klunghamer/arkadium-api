@@ -315,3 +315,9 @@ Processing by QuestionsController#number as HTML
 Completed 200 OK in 668ms (Views: 0.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/questions/5" for ::1 at 2016-12-09 12:13:39 -0500
+Processing by QuestionsController#number as HTML
+  Parameters: {"number"=>"5"}
+Completed 200 OK in 782ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+

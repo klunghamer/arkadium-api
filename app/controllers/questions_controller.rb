@@ -6,7 +6,6 @@ class QuestionsController < ApplicationController
     result = JSON.parse(resource.body)
     question = result['results'][number]
     render json: {question: question}
-    # render json: {number: number}
   end
 
 end
